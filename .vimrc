@@ -210,4 +210,3 @@ command! -nargs=1 GrepBuffers call GrepBuffers(<args>, 'c')
 " :GrepBuffersL('pattern') puts results into the location list.
 command! -nargs=1 GrepBuffersL call GrepBuffers(<args>, 'l')
 "------------------------------------
-
